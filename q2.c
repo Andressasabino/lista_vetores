@@ -8,9 +8,10 @@ int main() {
     printf("Entre com um número: ");
     scanf("%d", &numero[i]);
   }
+  //escrevendo qualquer número
   printf("Escreva um número qualquer: ");
   scanf("%d", &numeros);
-  
+  //percorrendo os números e, atráves de um contador, vai contar quantas vezes aparece
   for(i = 0; i < 10; i++){
     if(numeros == numero[i]){
       cont_num++;
